@@ -39,7 +39,12 @@
           }
         }
       ],
-      "@rnmapbox/maps"
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "pk.eyJ1IjoiYnViYnl3b29keiIsImEiOiJjbWp5cjZxcXQwOHVtM2RxM2Nqb2k2cWNjIn0.ZC6CezrQajf2S_q-DVuUyA"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
